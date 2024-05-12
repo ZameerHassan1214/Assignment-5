@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+</head>
+<body>
+   <input class="weight" type="number" placeholder="Enter your weight"/>
+   <select class="unit">
+   <option value="KG">KG</option>
+   <option value="LB">LB</option>
+   </select>
+
+<div class="py-3">
+<span>FEET</span>
+   <select class="feet">
+<option value="0">0</option>    
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+
+
+   </select>
+   <span>INCHES</span>
+
+<select class="inches" >
+   <option value="0">0</option>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+   <option value="5">5</option>
+   <option value="6">6</option>
+   <option value="7">7</option>
+   <option value="8">8</option>
+   <option value="9">9</option>
+   <option value="10">10</option>
+   <option value="11">11</option>
+   <option value="12">12</option>
+
+</select>
+   
+</div>
+<button onclick= "calculateBMI()"  class = "submitBtn"> Calculate BMI </button>
+<h5 class="py-2 result"></h5>
+<h5 class="py-2 BMIstatus"></h5>
+<script src="./script.js"></script>
+</body>
+</html>
